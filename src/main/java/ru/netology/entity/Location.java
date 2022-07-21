@@ -8,9 +8,9 @@ public class Location {
 
     private final String street;
 
-    private final int builing;
+    private final Integer builing;
 
-    public Location(String city, Country country, String street, int builing) {
+    public Location(String city, Country country, String street, Integer builing) {
         this.city = city;
         this.country = country;
         this.street = street;
